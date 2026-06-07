@@ -4,6 +4,7 @@ Manual testing for Sauce Labs My Demo App, including test cases, bug reports, an
 ID | Description | Steps | Expected result | status
 | :--- | :--- | :--- | :--- | :--- |
 TC-1 | verify that click on a product image displayed the product details | 1.Open the APP (my demo) <br> 2. click on a product image (T-shirt black) | displayed screen the product details | fail
+TC-2 | verify that change colors the products When you click on it | 1.Open the APP (my demo) <br> 2. click on any a product image <br> 3. click on change color button for a product | change colors the product Successfully | fail
 
 ## Bug Report
 # Bug-001 : the APP is crash
@@ -13,3 +14,11 @@ TC-1 | verify that click on a product image displayed the product details | 1.Op
 * Expected result : displayed screen the product details
 * Actual result :the app is crash and message displayed app keeps stopping
 * <img width="644" height="356" alt="WhatsApp Image 2026-06-07 at 7 58 56 PM" src="https://github.com/user-attachments/assets/f6903608-de81-4862-87b1-369dea832e0a" />
+
+# Bug-002 : error in change colors the product
+* severity : medium
+* Issue type : functional
+* steps : 1.Open the APP (my demo) <br> 2. click on any a product image <br> 3. click on change color button for a product
+* Expected result : change colors the product Successfully
+* Actual result : error in change colors the product
+* <img width="720" height="1604" alt="WhatsApp Image 2026-06-07 at 9 10 38 PM" src="https://github.com/user-attachments/assets/679f2629-1186-4ea1-afff-ef9f10049d18" />
